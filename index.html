@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link rel="icon" type="image/x-icon" href="icon.ico">
+    <title>Wordle</title>
+</head>
+<body>
+    <div class="wraper">
+        <div class="message" id="message"></div>
+        <div class="row">
+            <div class="box" id="1-1"></div>
+            <div class="box" id="1-2"></div>
+            <div class="box" id="1-3"></div>
+            <div class="box" id="1-4"></div>
+            <div class="box" id="1-5"></div>
+        </div>
+        <div class="row">
+            <div class="box" id="2-1"></div>
+            <div class="box" id="2-2"></div>
+            <div class="box" id="2-3"></div>
+            <div class="box" id="2-4"></div>
+            <div class="box" id="2-5"></div>
+        </div>
+        <div class="row">
+            <div class="box" id="3-1"></div>
+            <div class="box" id="3-2"></div>
+            <div class="box" id="3-3"></div>
+            <div class="box" id="3-4"></div>
+            <div class="box" id="3-5"></div>
+        </div>
+        <div class="row">
+            <div class="box" id="4-1"></div>
+            <div class="box" id="4-2"></div>
+            <div class="box" id="4-3"></div>
+            <div class="box" id="4-4"></div>
+            <div class="box" id="4-5"></div>
+        </div>
+        <div class="row">
+            <div class="box" id="5-1"></div>
+            <div class="box" id="5-2"></div>
+            <div class="box" id="5-3"></div>
+            <div class="box" id="5-4"></div>
+            <div class="box" id="5-5"></div>
+        </div>
+        <div class="row">
+            <div class="box" id="6-1"></div>
+            <div class="box" id="6-2"></div>
+            <div class="box" id="6-3"></div>
+            <div class="box" id="6-4"></div>
+            <div class="box" id="6-5"></div>
+        </div>
+    </div>
+    <div class="keyboard">
+        <button class="btn letter-button" onclick="clicked('Q')">Q</button>
+        <button class="btn letter-button" onclick="clicked('W')">W</button>
+        <button class="btn letter-button" onclick="clicked('E')">E</button>
+        <button class="btn letter-button" onclick="clicked('R')">R</button>
+        <button class="btn letter-button" onclick="clicked('T')">T</button>
+        <button class="btn letter-button" onclick="clicked('Z')">Z</button>
+        <button class="btn letter-button" onclick="clicked('U')">U</button>
+        <button class="btn letter-button" onclick="clicked('I')">I</button>
+        <button class="btn letter-button" onclick="clicked('O')">O</button>
+        <button class="btn letter-button" onclick="clicked('P')">P</button>
+        <br>
+        <button class="btn letter-button" onclick="clicked('A')">A</button>
+        <button class="btn letter-button" onclick="clicked('S')">S</button>
+        <button class="btn letter-button" onclick="clicked('D')">D</button>
+        <button class="btn letter-button" onclick="clicked('F')">F</button>
+        <button class="btn letter-button" onclick="clicked('G')">G</button>
+        <button class="btn letter-button" onclick="clicked('H')">H</button>
+        <button class="btn letter-button" onclick="clicked('J')">J</button>
+        <button class="btn letter-button" onclick="clicked('K')">K</button>
+        <button class="btn letter-button" onclick="clicked('L')">L</button>
+        <br>
+        <button class="btn command-button1" onclick="enter()">ENTER</button>
+        <button class="btn letter-button" onclick="clicked('Y')">Y</button>
+        <button class="btn letter-button" onclick="clicked('X')">X</button>
+        <button class="btn letter-button" onclick="clicked('C')">C</button>
+        <button class="btn letter-button" onclick="clicked('V')">V</button>
+        <button class="btn letter-button" onclick="clicked('B')">B</button>
+        <button class="btn letter-button" onclick="clicked('N')">N</button>
+        <button class="btn letter-button" onclick="clicked('M')">M</button>
+        <button class="btn command-button2" onclick="del()">DELETE</button>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>

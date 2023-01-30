@@ -1,0 +1,93 @@
+body {
+    font-family: "Clear Sans","Helvetica Neue",Arial,sans-serif;
+}
+
+.row {
+    display: flex;
+}
+
+.box {
+    width: 60px;
+    height: 50px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    border: 3px rgb(194, 194, 194) solid;
+    transition: 0.4s;
+    text-align: center;
+    font-size: 40px;
+    padding-top: 8px;
+}
+
+.wraper {
+    width: 400px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 100px;
+}
+
+.btn {
+    font-size: 19px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    border: 0px black solid;
+    background-color: rgb(216, 216, 216);
+    transition: 0.4s;
+}
+
+.gray {
+    background-color: #787c7e;
+    color: white;
+}
+
+.yellow {
+    background-color: #c9b458;
+}
+
+.green {
+    background-color: #6aaa64;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+.btn:active {
+    background-color: rgba(216, 216, 216, 0);
+}
+
+.letter-button{
+    margin-right: 5px;
+}
+
+.keyboard{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.command-button1 {
+    margin-right: 40px;
+}
+
+.command-button2 {
+    margin-left: 40px;
+}
+
+.message {
+    background-color: rgb(185, 185, 185);
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 350px;
+    text-align: center;
+    border-radius: 5px;
+    transition: 0.5s;
+    font-size: 17px;
+}
+
+.empty {
+   width: 0px;
+   height: 0px;
+   transition: 0.5s;
+   font-size: 17px;
+   text-align: center;
+}
